@@ -11,7 +11,7 @@ v = ds_ponto['v100'].values
 velocidade = np.sqrt(u**2 + v**2)
 
 plt.figure(figsize=(10, 5))
-plt.plot(ds_ponto['time'].values, velocidade, marker='o')
+plt.plot(ds_ponto['valid_time'].values, velocidade, marker='o')
 plt.title('Velocidade do Vento a 100m (ERA5)')
 plt.xlabel('Data/Hora')
 plt.ylabel('Velocidade (m/s)')
