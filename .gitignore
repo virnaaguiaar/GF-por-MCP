@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+*.zip
+grafico_vento.png
+data_era5_teste*.zip
+data_era5_teste*_nc/
+data_era5_teste*.png
